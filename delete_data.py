@@ -10,9 +10,9 @@ def delete_data():
     for row in csv.reader(input):
         if row[0] != request:         
             writer.writerow(row)
-def revr():
-    input1 = open('data.csv', 'w')
-    output1 = open('s.csv', 'r')
-    writer1 = csv.writer(input1)
-    for row1 in csv.reader(output1):
-         writer1.writerow(row1)
+            break
+    input = open('data.csv', 'w')
+    output = open('s.csv', 'r')
+    writer = csv.writer(input)
+    for row in csv.reader(output):
+         writer.writerow(row)
