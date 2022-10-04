@@ -1,6 +1,6 @@
 import csv
 def word():
-    request = input('Введите Фамилию')
+    request = input('Введите Id')
     return request
 def delete_data():
     request = wort()
