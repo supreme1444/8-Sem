@@ -1,5 +1,5 @@
 import csv
-def wort():
+def word():
     request = input('Введите Фамилию')
     return request
 def delete_data():
