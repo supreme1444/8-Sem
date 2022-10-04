@@ -3,7 +3,7 @@ def word():
     request = input('Введите Id')
     return request
 def delete_data():
-    request = wort()
+    request = word()
     input = open('data.csv', 'r')
     output = open('s.csv', 'w')
     writer = csv.writer(output)
